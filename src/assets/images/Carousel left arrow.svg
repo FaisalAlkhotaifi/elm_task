@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55">
+  <g id="Carousel_left_arrow" data-name="Carousel left arrow" transform="translate(-309 -3949)">
+    <g id="Ellipse_329" data-name="Ellipse 329" transform="translate(309 3949)" fill="none" stroke="#00b1bf" stroke-width="1">
+      <circle cx="27.5" cy="27.5" r="27.5" stroke="none"/>
+      <circle cx="27.5" cy="27.5" r="27" fill="none"/>
+    </g>
+    <path id="Path_2587" data-name="Path 2587" d="M-1.5,1.568-.3.369A.727.727,0,0,0-.3-.658L-11.238-11.625-.3-22.592a.727.727,0,0,0,0-1.028l-1.2-1.2a.727.727,0,0,0-1.028,0L-15.2-12.139a.727.727,0,0,0,0,1.028L-2.523,1.568A.727.727,0,0,0-1.5,1.568Z" transform="translate(341 3988)" fill="#00b1bf"/>
+  </g>
+</svg>
