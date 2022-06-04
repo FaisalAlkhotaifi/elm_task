@@ -1,0 +1,40 @@
+section {
+    color: black;
+    padding: 7rem 0;
+}
+
+.carousel-slide-container {
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+
+    .slide-content-container {
+        width: 25%;
+        gap: 2rem;
+
+        .new-header {
+            color: #00B1BF;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+        .news-content {
+            gap: 1rem;
+
+            .news-content-title {
+                font-size: 1.5rem;
+            }
+        }
+
+        .news-date {
+            color: #9F9F9F;
+        }
+    }
+
+    .slide-image-container {
+        img {
+            width: 24rem;
+        }
+    }
+}
+

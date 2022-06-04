@@ -1,0 +1,59 @@
+section {
+    padding: 5rem 0;
+
+    .pro-cret-content-container {
+
+        .pro-cret-header-container {
+            background: #00B1BF;
+            width: 90%;
+            padding-inline-start: 10rem;
+            gap: 3rem;
+            align-items: center;
+            border-top-left-radius: 0.75rem;
+            border-bottom-left-radius: 0.75rem;
+
+            img {
+                width: 6.5rem;
+            }
+        }
+
+        .pro-cret-content-container {
+            justify-content: end;
+
+            .pro-cret-content-inner-container {
+                background-color: #0000008C;
+                margin-top: -2rem;
+                padding: 3rem 1rem 2rem 1rem;
+                width: 50%;
+
+                .pro-cret-info-container {
+                    gap: 1rem;
+
+                    .header-button {
+                        background-color: transparent;
+                        border: 1px solid white;
+                        border-radius: 5rem;
+                        color: white;
+                        padding: 0.5rem 1.2rem;
+                    }
+                }
+
+                .pro-cret-content-inner-2-container {
+                    gap: 1rem;
+
+                    .pro-cret-info-container {
+                        gap: 1rem;
+                    }
+        
+                    div .header-button {
+                        background-color: transparent;
+                        border: 1px solid white;
+                        border-radius: 5rem;
+                        color: white;
+                        padding: 0.5rem 1.2rem;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+.page-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.header-section {
+    background: url('../../assets/images/bg_circles.svg') 0% 0% no-repeat padding-box;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+}
+
+.news-section {
+    background: url('../../assets/images/Shapes.svg') 0% 0% no-repeat padding-box;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+}
+
+.pro-cretifcat-section {
+    background: url('../../assets/images/Image_37.png') 0% 0% no-repeat padding-box;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+}

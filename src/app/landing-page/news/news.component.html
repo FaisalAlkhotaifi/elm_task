@@ -1,1 +1,29 @@
-<p>news works!</p>
+<section>
+    <div>
+        <owl-carousel-o [options]="customOptions" #owlCarousel>
+            <ng-container *ngFor="let element of data">
+                <ng-template carouselSlide>
+                    <div class="slide">
+                        <div class="carousel-slide-container app-flex-row">
+                            <div class="slide-content-container app-flex-column">
+                                <div class="new-header">
+                                    <span>آخر الاخبار</span>
+                                </div>
+                                <div class="app-flex-column news-content">
+                                    <span class="news-content-title"> {{ element.title }} </span>
+                                    <span> {{ element.desc }} </span>
+                                </div>
+                                <div class="news-date">
+                                    <span> {{ element.date }} </span>
+                                </div>
+                            </div>
+                            <div class="slide-image-container">
+                                <img [src]="element.image" [alt]="element.title">
+                            </div>
+                        </div>
+                    </div>
+                </ng-template>
+            </ng-container>
+        </owl-carousel-o>
+    </div>
+</section>

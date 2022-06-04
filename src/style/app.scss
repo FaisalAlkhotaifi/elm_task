@@ -1,0 +1,41 @@
+// Import Owl Carousel css
+@import 'node_modules/ngx-owl-carousel-o/lib/styles/scss/owl.carousel';
+@import 'node_modules/ngx-owl-carousel-o/lib/styles/scss/owl.theme.default';
+
+// Common css
+.app-flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+  
+.app-flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+}
+
+
+// Carousel Custom
+.owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: 3rem;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+    background: #00B1BF;
+}
+
+// Bootstrap Custom
+.btn {
+    font-size: 0.75rem;
+}

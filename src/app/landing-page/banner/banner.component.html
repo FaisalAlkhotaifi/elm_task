@@ -1,1 +1,19 @@
-<p>banner works!</p>
+<section class="my-2">
+    <div class="banner-content app-flex-column">
+        <div class="banner-content-title app-flex-column">
+            <span class="title-text">مرحبا بكم في بوابة الدرونز</span>
+            <span class="subtitle-text">تقدم البوابة العديد من الخدمات الفريدة لكل المهتمين بطائرات الدرونز</span>
+        </div>
+        <div class="banner-content-list">
+            <ul class="app-flex-row">
+                <li *ngFor="let feature of features" class="app-flex-row feature-container">
+                    <img [src]="feature.image" [alt]="feature.name">
+                    <p>{{ feature.name }}</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="banner-image">
+        <img src="assets/images/Drone Big.svg" alt="drone">
+    </div>
+</section> 
